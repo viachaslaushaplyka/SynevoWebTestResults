@@ -1,216 +1,598 @@
-<!DOCTYPE html><html style="" class=" js flexbox flexboxlegacy canvas canvastext webgl touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-c0d1f7d3-731f-4f75-bc3b-6961bf419950@mhtml.blink" />
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<!-- saved from url=(0136)https://my.gov.az/intro/external-reference/references/covid-vaccination-certificate.html?id=65a90891060041398b4f1fc53efd890b&pin=1ELXBP7 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Synevo certificate</title>
+  <link rel="stylesheet" href="./MyGov_files/style.css">
+  <link rel="stylesheet" href="./MyGov_files/privacy-policy.css">
+  <link rel="stylesheet" href="./MyGov_files/responsive.css">
+
+  <!-- End Google Tag Manager -->
+
+  <style>
+
+    .main{
+      text-align: center;
+      min-height: calc(100vh - 250px);
+    }
+
+    .wrapper{
+      padding: 20px;
+      display: inline-block;
+      margin: auto;
+      background: #FAFBFB;
+      border: 1px solid #E1E4E8;
+      box-sizing: border-box;
+      border-radius: 4px;
+      margin: 50px auto;
+    }
+
+    .not-found-text{
+      font-size: 18px;
+    }
+
+    .container-rc {
+      width: 800px;
+      /*height: 641px;*/
+      background: #FBF7F4;
+      margin-bottom: 20px;
+    }
+
+    .container-rc .header {
+      width: 100%;
+      height: 50px;
+      border-bottom: 1px solid #B99E8F;
+    }
+
+    .container-rc .header .mygov-logo {
+      width: 80px;
+      height: 22px;
+      margin-top: 13px;
+      float: left;
+      margin-left: 21px;
+    }
+
+    .container-rc .header span {
+      position: relative;
+      top: 15px;
+      margin-left: -30px;
+      font-family: sans-serif, DejaVu Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 11px;
+      color: #000000;
+    }
 
 
-        <title>SynevoWeb - Test Results</title>
+    .container-rc .call-center-logo {
+      width: 30px;
+      height: 30px;
+      float: right;
+      margin-top: 11px;
+      margin-right: 21px;
+    }
+
+    .container-rc .call-center-logo img {
+      width: 100%;
+    }
+
+    .container-rc .doc-info {
+      width: 100%;
+      height: 41px;
+    }
+
+    .container-rc .doc-labels {
+      float: left;
+      margin-top: 7px;
+      margin-left: 21px;
+      width: 348px;
+    }
+
+    .container-rc .doc-labels p {
+      margin-top: 0;
+      margin-bottom: 0;
+      line-height: 16px;
+    }
+
+    .container-rc .doc-labels b {
+      font-family: sans-serif, DejaVu Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      color: #000000;
+
+    }
+
+    .container-rc .doc-labels span {
+      font-family: sans-serif, DejaVu Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      color: #000000;
+    }
+
+    .container-rc .arms-and-qr{
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    .container-rc .arms-and-qr .gerb{
+      height: 40px;
+    }
+
+    .container-rc .cert-title-section {
+      margin: 0 10px;
+      border-top: 1px solid #000000;
+      border-bottom: 1px solid #000000;
+      padding: 3px 0 10px;
+      background: #1900ff54
+    }
+
+    .container-rc .cert-title {
+    }
+
+    .container-rc .cert-title h1 {
+      font-family:sans-serif, DejaVu Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 12px;
+      color: #000000;
+      margin-top: 7px;
+      margin-bottom: 0;
+      text-align: center;
+    }
+
+    .container-rc .person-info-section{
+      margin-top: 15px;
+      padding: 0 25px;
+    }
+
+    .container-rc .info{
+      text-align: left;
+      font-family: sans-serif, DejaVu Sans;
+      margin-bottom: 7px;
+    }
+
+    .container-rc .info label{
+
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+    }
+
+    .container-rc .info p{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      padding: 0;
+      margin-top: 3px;
+      margin-bottom: 0;
+      min-height: 11px;
+    }
+
+    .pull-left{
+      float: left;
+    }
+
+    .pull-right{
+      float: right;
+    }
+    .mt-0{
+      margin-top: 0 !important;
+    }
+    .mt-12{
+      margin-top: 12px !important;
+    }
+
+    .fs-10{
+      font-size: 14px !important;
+    }
+
+    .container-rc .vaccine-general-section{
+      background: #EBEEE7;
+      padding: 10px 15px;
+    }
+
+    .container-rc .vaccine-general-section .info:last-child{
+      margin-bottom: 0;
+    }
+
+    .container-rc .vaccine-info-section{
+      display: flex;
+    }
 
 
-    <link href="https://webresults.synevo.ge/Content/css?v=S-Y0q2mcEH71FGrmzwj3DCxAZDQAgdtE7z81hbvwuBI1" rel="stylesheet">
+    .vaccine-info-section table{
+      table-layout: fixed;
+      width: 100%;
+      margin: 15px;
+      border: 2px solid #956F5D;
+      font-size: 14px;
+      border-collapse: collapse;
+      font-family: sans-serif, DejaVu Sans;
+    }
 
-    
+    .vaccine-info-section table td, .vaccine-info-section table th{
+      font-weight: normal;
+      font-family: sans-serif, DejaVu Sans;
+      padding: 3px 1px;
+      line-height: 1.3;
+    }
 
-    <link href="https://webresults.synevo.ge/BotDetectCaptcha.ashx?get=layoutStyleSheet" rel="stylesheet" type="text/css">
+    .container-rc .vaccine-info-section .vaccine-data{
+      border-right: 1px solid #B99E8F;
+      padding: 10px 15px 3px;
+    }
 
-    
+    .container-rc .vaccine-info-section .vaccine-data:last-child{
+      border-right: none;
+    }
 
-    
+    .container-rc .vaccine-general-section{
+      background: #1900ff54;
+      padding: 10px 15px;
+    }
 
-    
+    .container-rc .vaccine-general-section .info:last-child{
+      margin-bottom: 0;
+    }
 
-    
+    .cert-info-section{
+      background: #1900ff54;
+      padding: 10px 15px 3px;
+    }
 
 
-    
+    .container-rc .footer{
+      padding-bottom: 10px;
+      height: 70px;
+      background: #FBF7F4;
+    }
+
+    .container-rc .footer img{
+      width: 100%;
+    }
+
+    .container-rc .footer .sn-logo{
+      margin-top: 10px;
+      margin-left: 72px;
+      width: 94px;
+      float: left;
+    }
+
+    .container-rc .footer .its-logo{
+      margin-top: 12px;
+      margin-left: 30px;
+      width: 88px;
+      float: left;
+    }
+
+
+    .container-rc .footer .tabib-logo{
+      margin-top: 22px;
+      margin-left: 30px;
+      width: 94px;
+      float: left;
+    }
+
+    .export-btn{
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 8px 16px;
+
+      width: 100%;
+      height: 44px;
+      background: #102F68;
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      color: #ffffff;
+      border: none;
+    }
+
+    .export-btn span{
+      color: #ffffff;
+      font-family: DejaVu Sans;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      margin-right: 8px;
+    }
+
+    .captcha-container{
+      margin: 0 auto;
+      padding: 10px;
+      width: 242px;
+      background: #FFFFFF;
+      border: 1px solid #E1E4E8;
+      border-radius: 4px;
+    }
+
+    .form-section{
+      width: 242px;
+      height: 40px;
+
+      background: #F7F8F9;
+
+      border: 1px solid #E1E4E8;
+      border-radius: 4px;
+    }
+
+    .captcha-input{
+      float: left;
+      height: 22px;
+      border: none;
+      width: 138px;
+      background: none;
+      padding: 9px 16px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #75778b;
+      outline: 0;
+    }
+
+    .captcha-submit-btn{
+      padding: 6px 8px;
+      width: 65px;
+      height: 32px;
+      background: #01408F;
+      border-radius: 4px;
+      border: none;
+      color: #ffffff;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 20px;
+      margin-top: 4px;
+      margin-right: 4px;
+      float: right;
+    }
+
+    .captcha-image-section{
+      margin-top: 6px;
+      display: flow-root;
+    }
+
+    .captcha-image{
+      float: left;
+      width: 200px;
+      height: 40px;
+      background: #FFFFFF;
+      border: 1px solid #E1E4E8;
+      border-radius: 4px;
+      text-align: center;
+    }
+
+    .captcha-image img{
+      height: 100%;
+      border-radius: 4px;
+    }
+
+    .captcha-refresh-btn{
+      border: none;
+      height: 22px;
+      width: 22px;
+      padding: 0;
+      background: none;
+      margin-top: 10px;
+      margin-left: 8px;
+      cursor: pointer;
+      outline: 0;
+    }
+
+    .captcha-refresh-btn img{
+      width: 100%;
+    }
+
+    .error-section{
+      display: flex;
+    }
+
+    .error-section img{
+      height: 14px;
+      position: relative;
+      top: 3px;
+
+    }
+
+    .error-section span{
+      font-size: 14px;
+      line-height: 20px;
+      color: #DD2727;
+      margin-left: 9px;
+    }
+
+    .loader{
+      display: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: rgba(255, 255, 255, 0.5);
+      z-index: 9999;
+    }
+
+    .service-loader-logo {
+      z-index: 9999999;
+      position: relative;
+      margin-top: 20vh;
+
+      -webkit-animation: spin 15s linear infinite;
+      animation: spin 15s linear infinite;
+      animation-timing-function: cubic-bezier(0.48, 0.71, 0.82, 1.08);
+    }
+
+    @keyframes spin {
+      100% {
+        -webkit-transform: rotate(3600deg);
+        transform: rotate(3600deg);
+      }
+    }
+
+  </style>
+
 </head>
-<body style="">
-<form action="https://webresults.synevo.ge/en-US/Account/LogOff" class="navbar-right" id="logoutForm" method="post">        <nav id="mainNavbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+<body id="body">
+<div class="container">
+  <header class="header">
+    <div class="header-container navigation">
+      <div class="header-left">
+        <a href="https://my.gov.az/">
+          <img src="./MyGov_files/Bez-tytulu-240×160-px-300×100-px.png" alt="MyGov">
+        </a>
+      </div>
+    </div>
+  </header>
 
+  <div class="main">
 
-
-                </div>
-
-                <div class="collapse navbar-collapse" id="navbar-collapse-main">                    
-                    <ul class="nav navbar-nav navbar-right">
-                       
-
-                    </ul>
-                   
-                </div>
-            </div>
-        </nav>
-</form>
-        <div id="mainContainer" class="container body-content">
-            <!--data-date-format="%m/%d/%Y"-->
-            
-
-
-
-
-
-
-                    <div id="pageHeader" class="row pageHeader">
-                        <div class="col-lg-5">
-                            <h2>TEST RESULTS</h2>
-                        </div>
-                        <div class="col-lg-5 text-right">
-                            <h2></h2>
-                        </div>
-                    </div>
-
-
-                <div class="paper volumetry swPanel">
-                <div id="resultsPatientInfoHeader" class="row">
-                    <div class="col-lg-12">
-                        <h4><a href="https://webresults.synevo.ge/en-US/Orders/ResultsQR/296698199937714267#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> PATIENT INFO</a></h4>
-                    </div></div>
-                <div id="resultsPatientInfo" class="row panelContent">
-<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 ">
-        <p>
-            <strong>Barcode:</strong>
-            91929597<br>
-                <strong>Name:</strong>
-Shaplyka, Viachaslau<br>
-                <strong>PIN:</strong>
-mc2638487<br>
-            <strong>Date of Birth:</strong>
-            8/13/1989<br>
-
-
-        </p>
-</div><div class="hidden-xs hidden-sm col-md-4 col-lg-4 ">
-</div><div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 ">
-        <p>
-            <strong>Laboratory:</strong>
-            Tbilisi<br>
-            <strong>Sample Date:</strong>
-            14/05/2022 10:07<br>
-            <strong>Results Date:</strong>
-            15/05/2022 01:36<br>
-        </p>
-</div></div></div>
-                <div class="paper volumetry swPanel">
-                <div id="resultsHeader" class="row">
-                    <div class="col-lg-12">
-                        <h4><a href="https://webresults.synevo.ge/en-US/Orders/ResultsQR/296698199937714267#"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span> </a></h4>
-                    </div></div>
-                <div class="row" id="resultsLegend">
-                    <div class="col-lg-12">
-                        <table class="table resultsTable">
-                            <tbody>
-                                <tr class="resultsTableHeader">
-                                    <td><h5></h5></td>
-                                    <td><h5>Name<br><small>Reagent</small></h5></td>
-                                    <td class="resultValue"><h5>Result<br><small>UM</small></h5></td>
-                                    <td class="noWordWarp"><h5>Reference interval<br><small>&nbsp;</small></h5></td>
-                                    <td class="hidden-xs"></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div id="results" class="row panelContent">
-
-                <div class="col-lg-12">
-                    <table class="table table-hover resultsTable">
-                        <tbody>
-                
-                <tr class="serviceHeader">
-                  <td><h4>1.</h4></td>
-                    <td colspan="4"><h4></h4></td>
-                </tr>
-                    <tr>
-                        <td><h5></h5></td>
-                        <td><h5>SARS-Cov-2 PCR<br><small>SARS-Cov-2 PCR/კორონავირუსის SARS –Cov-2 PCR</small></h5></td>
-                        <td class="resultValue"><h5>Negative<br><small></small></h5></td>
-                        <td>Negative</td>
-                        <td class="hidden-xs"></td>
-                    </tr>
-            
-                    <tr>
-                        <td><h5></h5></td>
-                        <td><h5>Remarks / შენიშვნა<br><small></small></h5></td>
-                        <td class="resultValue"><h5>A negative test result does not  100% preclude the infection with Covid-19 as it depends on the availability of the virus in the sample.
-ტესტის უარყოფითი შედეგი 100% -ით არ გამორიცხავს Covid-19- ით ინფიცირებას, რადგან ეს დამოკიდებულია ნიმუშში ვირუსის ნაწილაკების რაოდენობაზე.<br><small></small></h5></td>
-                        <td></td>
-                        <td class="hidden-xs"></td>
-                    </tr>
-            
-                    <tr>
-                        <td><h5></h5></td>
-                        <td><h5>Analyzer / ანალიზატორი<br><small></small></h5></td>
-                        <td class="resultValue"><h5>The test was performed using Thermo Scientific KingFiSher Duo Prime automated extractor and QuantStudio 5 automated PCR analyzer
-კვლევა შესრულებულია Thermo Scientific-ის ფირმის KingFiSher Duo Prime ავტომატური ექტრაქტორის და QuantStudio 5 ავტომატური პჯრ ანალიზატორის საშუალებით<br><small></small></h5></td>
-                        <td></td>
-                        <td class="hidden-xs"></td>
-                    </tr>
-            
-                        </tbody>
-                    </table>
-                </div>
-                </div></div>
-
-
-        </div>
-    <div class="row hidden-sm hidden-xs">
-        <div class="col-sm-6 col-sm-offset-3">
-            <nav id="navFooter" class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand">
-                            <span class="identityText1">
-                                © Synevo 2022
-                            </span>
-                        </a>                       
-                    </div>
-
-                    <div class="collapse navbar-collapse" id="Div1">
-                        <ul class="nav navbar-nav navbar-right">
-                            
-
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
+    <div class="loader" style="display: none;">
+      <img class="service-loader-logo" src="./MyGov_files/loader-mygov.svg" alt="">
     </div>
 
+    <div class="wrapper">
+      <p style="display: none" class="not-found-text">Peyvənd sertifikatına dair məlumat tapılmadı!</p>
+      <div style="display: block;" class="container-rc">
 
-    
-    
-    
-
-
-
-    <div class="modal fade" id="pleaseWaitDialog" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Loading</h4>
-                </div>
-                <div class="modal-body text-center">
-                    <img src="https://webresults.synevo.ge/images/loader-gears.gif">
-                </div>
-                <div class="modal-footer">
-                    <small>Please wait...</small>
-                </div>
-            </div>
+        <div class="cert-title-section">
+          <div class="cert-title">
+            <h1>CYFROWY CERTYFIKAT COVID / DIGITAL COVID CERTIFICATE</h1>
+            <h1>CERTYFIKAT SZCZEPIONKI / VACCINE CERTIFICATE</h1>
+          </div>
         </div>
+        <div class="person-info-section">
+
+          <div class="info-row">
+            <div class="info pull-left" style="width:60%">
+              <label class="">Nazwisko / Surname</label>
+              <p class="info-text" id="surname">SHAPLYKA</p>
+            </div>
+            <div class="info pull-right" style="width:40%">
+              <label class="">Nadane imię / Given name</label>
+              <p class="info-text" id="name">VIACHASLAU</p>
+            </div>
+          </div>
+
+          <div class="info-row">
+         
+            <div class="info pull-right" style="width:40%">
+              <label class="">Płeć / Sex</label>
+              <p class="info-text" id="gender">MĘŻCZYZNA / MALE</p>
+            </div>
+          </div>
+
+          <div class="info">
+            <label class="">Data urodzenia / Date of birth</label>
+            <p class="info-text" id="birthdate">13.08.1989</p>
+          </div>
+          <div class="info">
+            <label class="">Narodowość / Nationality</label>
+            <p class="info-text" id="citizenship">Belarus</p>
+          </div>
+          <div class="info">
+            <label class="">Numer paszportu / Passport ID</label>
+            <p class="info-text" id="pin">MC2638487</p>
+          </div>
+
+        </div>
+
+        <div class="vaccine-general-section">
+          <div class="info">
+            <label class="">Ukierunkowana choroba lub agent / Disease or agent targeted</label>
+            <p class="info-text" id="disease">COVID-19</p>
+          </div>
+          <div class="info">
+            <label class="">Kraj szczepienia / Country of vaccination</label>
+            <p class="info-text" id="country">PL</p>
+          </div>
+          <div class="info">
+            <label class="">Szczepionkowy produkt leczniczy / Vaccine medicinal product</label>
+            <p class="info-text" id="vaccineName">Comirnaty</p>
+          </div>
+          <div class="info">
+            <label class="">Producent / Manufacturer</label>
+            <p class="info-text" id="manufacturer">Biontech Manufacturing GmbH</p>
+          </div>
+        </div>
+
+        <div class="vaccine-info-section" id="vaccineInfoSection"><table border="1"><tbody><tr><th>Liczba dawek <br>Number of doses</th><th>Daty wtrysku <br>Injection dates</th><th>Numery partii <br>Batch numbers</th></tr><tr><td>1</td><td>17.03.2022</td><td>FN3815</td></tr><tr><td>2</td><td>15.04.2022</td><td>FN3815</td></tr></tbody></table></div>
+
+        <div class="cert-info-section">
+          <div class="info-row">
+            <div class="info pull-left" style="width:60%">
+              <label class="">Status / Status</label>
+              <p class="info-text" id="status">W PEŁNI ZASZCZEPIONY / FULLY VACCINATED</p>
+            </div>
+            <div class="info pull-right" style="width:40%">
+              <label class="">Ważne do / Valid until</label>
+              <p class="info-text" id="validStatus">NIE WYGAŚNIĘCIE / NON EXPIRING</p>
+            </div>
+          </div>
+
+          <div class="info">
+            <label class="">Unikalny numer certyfikatu / Certificate unique number</label>
+            <p class="info-text fs-10">URN:UVCI:01:PL:1/A4F1DA94F34A4522942A5A3044192A0A</p>
+          </div>
+          <div class="info">
+            <label class="">Organ wydający / Issuing Authority</label>
+            <p class="info-text fs-10">Synevo</p>
+          </div>
+        </div>
+
+
+      </div>
+      <button style="display: flex;" type="button" class="export-btn" onclick="exportCovidVaccinationCertificate()">
+        <span>Download</span>
+        <img src="./MyGov_files/download.svg">
+      </button>
+      <div id="captcha" style="display: none;">
+        <div class="captcha-container">
+          <div class="form-section">
+            <input class="captcha-input" id="captcha-input" autocomplete="off" name="value" placeholder="Simvolları daxil edin" type="text">
+            <button class="captcha-submit-btn" type="button" onclick="submitCaptcha()">Təsdiqlə</button>
+          </div>
+          <p class="error-section" style="display: none"><img src="./MyGov_files/text-alert.svg" alt=""><span>Düzgün daxil edilməyib</span></p>
+          <div class="captcha-image-section">
+
+            <button type="button" onclick="refreshCaptcha()" class="captcha-refresh-btn"><img src="./MyGov_files/captcha-refresh.svg" alt=""></button>
+          </div>
+        </div>
+      </div>
+
     </div>
 
-   
+  </div>
+  <footer class="footer footer-tag" style="position: relative; bottom: 0; width: 100%;">
+    <div class="u-container">
+      <div class="footer__container">
+        <div class="footer__left">
+          <div class="footer__vxsda">
+            <a href="http://vxsida.gov.az/az" target="_blank" title="VXSDA" class="footer__vxsda__link">
+              
+              <span style="font-size:10mm">
+                © Synevo 2022
+            </span>
+            </a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </footer>
+</div>
+
+
+
+<script type="text/javascript" id="">(function(a,e,f,g,b,c,d){a[b]=a[b]||function(){(a[b].a=a[b].a||[]).push(arguments)};a[b].l=1*new Date;c=e.createElement(f);d=e.getElementsByTagName(f)[0];c.async=1;c.src=g;d.parentNode.insertBefore(c,d)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");ym(89160989,"init",{clickmap:!0,trackLinks:!0,accurateTrackBounce:!0});</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/89160989" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+</body></html>

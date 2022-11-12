@@ -1,0 +1,38 @@
+.content-item {
+    width: 100% !important;
+}
+
+.header-panel-container {
+    display: flex;
+    width: 100%;
+    /*max-width: 121rem;*/
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.header-panel-container div {
+    background: #F7F8F9;
+    width: 100%;
+    padding: 125px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: #022E6B;
+}
+
+.content-item {
+    box-shadow: none !important;
+    height: 100% !important;
+}
+
+.content-item label {
+    color: #0A1F44 !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content-item p {
+    color: #4E5D78;
+    font-size: 16px;
+    text-align: justify;
+}
